@@ -2,21 +2,18 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-
+import Cart from './components/Cart'
+import Default from './components/Default'
+import Details from './components/Details'
+import Navbar from './components/Navbar'
+import Product from './components/Product'
+import ProductList from './components/ProductList'
 
 function App() {
   return (
-    <div className="container">
-      <div className="row">
-        <div className="col-6">COLUMN1</div>
-        <div className="col-6">
-          <span>
-            <i className="fas fa-home" />
-            Home
-          </span>
-        </div>
-      </div>
-    </div>
+    <React.Fragment>
+      <Navbar/>
+    </React.Fragment>
   );
 }
 
