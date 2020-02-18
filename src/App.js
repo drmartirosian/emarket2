@@ -9,7 +9,12 @@ function App() {
     <div className="container">
       <div className="row">
         <div className="col-6">COLUMN1</div>
-        <div className="col-6">COLUMN2</div>
+        <div className="col-6">
+          <span>
+            <i className="fas fa-home" />
+            Home
+          </span>
+        </div>
       </div>
     </div>
   );
