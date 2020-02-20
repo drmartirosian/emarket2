@@ -21,6 +21,7 @@ export default class App extends Component {
           <Route exact path="/cart" component={Cart} />
           <Route exact component={Default} />
         </Switch>
+        <Model />
       </React.Fragment>
     );
   }
