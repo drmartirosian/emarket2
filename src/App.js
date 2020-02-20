@@ -8,6 +8,7 @@ import ProductList from './components/ProductList'
 import Details from './components/Details'
 import Cart from './components/Cart'
 import Default from './components/Default'
+import Model from './components/Model'
 
 export default class App extends Component {
   render(){
