@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../logo.svg'
+import logo from '../logo2.png'
 import styled from 'styled-components'
 import { ButtonContainer } from './Button'
 
@@ -14,7 +14,7 @@ export default class Navbar extends Component {
                     https://www.iconfinder.com/Makoto_msk
                 */}
                 <Link to='/' >
-                    <img src={logo} alt="store" className="navbar-brand"></img>
+                    <img src={logo} alt="store" className="navbar-brand" height="50px"></img>
                 </Link>
                 <ul className="navbar-nav align-items-center">
                     <li className="nav-item ml-5">

@@ -8,9 +8,9 @@ export default class Modal extends Component {
         return (
         <ProductConsumer>
             {value => {
-            const { modalOpen, closeModal } = value;
+            const { modelOpen, closeModal } = value;
             const { img, title, price } = value.modalProduct;
-            if (!modalOpen) {
+            if (!modelOpen) {
                 return null;
             } else {
                 return (
@@ -25,9 +25,7 @@ export default class Modal extends Component {
 
                             <Link to="/">
                                 <ButtonContainer
-                                onClick={() => {
-                                    closeModal();
-                                }}
+                                onClick={() => { closeModal() }}
                                 >
                                 Continue Shopping
                                 </ButtonContainer>
@@ -36,9 +34,7 @@ export default class Modal extends Component {
                             <Link to="/cart">
                                 <ButtonContainer
                                 cart
-                                onClick={() => {
-                                    closeModal();
-                                }}
+                                onClick={() => { closeModal() }}
                                 >
                                 Go To Cart
                                 </ButtonContainer>

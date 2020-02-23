@@ -76,7 +76,7 @@ const ProductWrapper = styled.div`
         overflow: hidden;
     }
     .card-img-top {
-        transition: all 1s linear;
+        transition: all 0.1s linear;
     }
     .img-container:hover .card-img-top {
         transform: scale(1.2);
@@ -92,7 +92,7 @@ const ProductWrapper = styled.div`
         font-size: 1.4rem;
         border-radius: 0.5rem 0 0 0;
         transform: translate(100%, 100%);
-        transition: all 1s ease-in-out;
+        transition: all 0.1s ease-in-out;
     }
     .img-container:hover .cart-btn {
         transform: translate(0, 0);
