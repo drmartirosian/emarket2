@@ -33,12 +33,14 @@ class ProductProvider extends Component {
         const product = this.state.products.find(item => item.id === id);
         return product;
     };
+
     handleDetail = id => {
         const product = this.getItem(id);
         this.setState(() => {
         return { detailProduct: product };
         });
     };
+
     addToCart = id => {
         let tempProducts = [...this.state.products];
         const index = tempProducts.indexOf(this.getItem(id));
@@ -56,6 +58,7 @@ class ProductProvider extends Component {
         };
         }, this.addTotals);
     };
+
     openModal = id => {
         const product = this.getItem(id);
         this.setState(() => {
@@ -67,6 +70,7 @@ class ProductProvider extends Component {
         return { modelOpen: false };
         });
     };
+
     increment = id => {
         let tempCart = [...this.state.cart];
         const selectedProduct = tempCart.find(item => {
@@ -99,6 +103,7 @@ class ProductProvider extends Component {
         }, this.addTotals);
         }
     };
+
     getTotals = () => {
         // const subTotal = this.state.cart
         //   .map(item => item.total)
@@ -164,6 +169,7 @@ class ProductProvider extends Component {
         }
         );
     };
+
     render() {
     return (
         <ProductContext.Provider
