@@ -8,7 +8,7 @@ export const storeProducts = [
     id: 1,
     title: "Sock - Used",
     img: "img/product-1.png",
-    price: 10,
+    price: 13,
     company: "iSocks",
     info:
       "For those wondering how their socks keep disapearing... Hey -- What's that over there! Cool! Now buy this sock! Totally can bleach those stains (and mold) right out! BUY-BUY-BUY!!!",
@@ -20,7 +20,7 @@ export const storeProducts = [
     id: 2,
     title: "Ring of Power",
     img: "img/product-2.png",
-    price: 1,
+    price: 3,
     company: "Sauron",
     info:
       "Useless trash... Says something about one ring to rull them all, or what have you... Huh... You know on second thought, it's not for sale... Hey! Hands off! IT'S MY... my... PRECIOUS...",
@@ -44,7 +44,7 @@ export const storeProducts = [
     id: 4,
     title: "Rock - House Trained",
     img: "img/product-4.png",
-    price: 50,
+    price: 52,
     company: "Pet's 4EVER",
     info:
       "Loyal, trained, ready to roll. Next generation pet ready to lava you! Boulder than a dog, unlike cats will take nothing for granite. Introducing: the Rock.",
@@ -68,7 +68,7 @@ export const storeProducts = [
     id: 6,
     title: "Robo-Dog!",
     img: "img/product-6.png",
-    price: 17000,
+    price: 17234,
     company: "K9 Inc",
     info:
       "They said he would never walk again after the accident. We rebuilt him. Better. Faster. Stronger.",
@@ -92,7 +92,7 @@ export const storeProducts = [
     id: 8,
     title: "Magic Potion",
     img: "img/product-8.png",
-    price: 200,
+    price: 225,
     company: "Random Hobo Inc.",
     info:
       "That wizard under the bridge gave me this magic potion for 50 bucks. Said he makes them behind the bushes over there. Didn't say what it does, though... Must be magic, indeed!",
